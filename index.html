@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sixth Column Express</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="glass-container">
+            <nav class="navbar">
+                <div class="logo"><a href="#">Sixth Column</a></div>
+                <ul class="nav-links">
+                    <li class="nav-link"><a href="#">Home</a></li>
+                    <li class="nav-link"><a href="https://youtu.be/r4n8s6PVzl8?si=FRyfsHmglPsWu97_">Youtube</a></li>
+                    <li class="nav-link"><a href="#">About</a></li>
+                </ul>
+            </nav>
+            <div>
+                <div>
+                    <h2>Apophis Inc<br>Introduces the Sixth Column</h2>
+                    <p>We welcome you to the 4th Dimension on Earth!</p>
+                    <button id="getStartedButton">Get Started</button>
+                </div>
+                <div class="image-wrapper">
+                    <img src="1brokerlogo.jpeg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Get reference to the button element
+        const button = document.getElementById('getStartedButton');
+
+        // Add event listener to the button
+        button.addEventListener('click', function() {
+            // Redirect to the specified YouTube link
+            window.location.href = 'https://youtu.be/r4n8s6PVzl8?si=FRyfsHmglPsWu97_';
+        });
+    </script>
+</body>
+
+</html>
